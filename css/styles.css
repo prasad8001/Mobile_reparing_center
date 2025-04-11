@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+#container {
+    width: 100%;
+    border: 1px solid red;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+#container div i {
+    margin: 0px 7px;
+}
+
+header nav a {
+    margin: 0px 7px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#navv {
+
+    display: none;
+}
+
+header .icon i {
+
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+#herosection {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#herosection div img {
+    width: 100%;
+}
+
+.mobile_child {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.mobile_child img {
+    width: 100%;
+    padding: 10px;
+}
+
+#mobiles {
+
+    justify-content: center;
+}
+
+#galleries {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-evenly;
+
+}
+
+.galleries-child div img {
+    width: 100%;
+}
+
+
+#uniqe {
+    text-align: center;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+footer div {
+    margin: 10px;
+}
+
+
+i {
+    margin: 0px 5px;
+}
+
+
+@media only screen and (min-width:768px) {
+    #mobile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .mobile_child {
+        display: flex;
+        flex-wrap: wrap;
+        width: 33%;
+    }
+
+    #galleries {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .galleries-child {
+        
+        
+        width: 100%;
+    }
+
+    .galleries-child div img {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width:1200px) {
+    #navv {
+
+        display: block;
+    }
+    #navv nav a
+    {
+        margin: 0px 10px;
+        text-decoration: none;
+        
+    }
+
+    .galleries-child div img {
+        width: 30%;
+        flex-direction: row;
+    }
+
+    #herosection {
+        display: inline;
+        width: 100%;
+    }
+    #galleries {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .galleries-child {
+        
+        
+        width: 100%;
+    }
+
+    .galleries-child div img {
+        width: 100%;
+    }
+
+
+
+}
